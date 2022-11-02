@@ -5,7 +5,7 @@
 body {
   background-color: #fff;
   font-family: sans-serif;
-  width: 100%;
+  width: calc(100vw-10px);
 }
 
 #header {
@@ -27,10 +27,20 @@ body {
 }
 
 #header-img {
-  aspect-ratio: auto;
+  aspect-ratio: 1;
+  width: auto;
   height: 90%;
-  padding: 7px;
+  padding: 3px;
+  margin: 5px;
+  margin-left: 3px;
+  margin-right: 7px;
   filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(130deg) brightness(500%) contrast(100%);
+}
+
+#header #logo-text {
+	padding: 0;
+	margin: 0;
+	margin-left: 2px;
 }
 
 #header a {
@@ -124,6 +134,7 @@ fieldset {
 
 .submit-basket {
   width: 100%;
+  padding: 5px;
 }
 
 #product-details {
@@ -203,6 +214,11 @@ fieldset {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 5px;
+}
+
+#footer-link {
+	margin: 0px 5px 0px 5px;
 }
 
 #copyright {

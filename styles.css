@@ -23,10 +23,6 @@ body {
   padding: 0 0 0 10px;
 }
 
-#header h1 {
-  padding: 0 0 0 10px;
-}
-
 #header-img {
   aspect-ratio: 1;
   width: auto;
@@ -35,7 +31,6 @@ body {
   margin: 5px;
   margin-left: 3px;
   margin-right: 7px;
-  filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(130deg) brightness(500%) contrast(100%);
 }
 
 #header #logo-text {
@@ -46,22 +41,11 @@ body {
 
 #header a {
   color: white;
+  text-decoration: none;
 }
 
-a:visited {
-  color: #202020;
-}
-
-#header a:visited {
-  color: #eee;
-}
-
-a:hover {
-  color: black;
-}
-
-#footer a {
-  color: black;
+#header a:hover {
+	text-decoration: underline;
 }
 
 #nav-list {
@@ -122,6 +106,10 @@ section {
 #product-selection {
   width: 100%;
   border-color:
+}
+
+#color-option, #product-number {
+	height: 25px;
 }
 
 fieldset {
@@ -199,6 +187,22 @@ fieldset {
   font-size: 12px;
 }
 
+#footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+#footer-link {
+	margin: 0px 5px 0px 5px;
+}
+
+#footer a {
+  color: black;
+}
+
+
 #form {
   display: flex;
   flex-direction: row;
@@ -211,24 +215,10 @@ fieldset {
   margin-bottom: 3px;
 }
 
-#footer-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 5px;
-}
-
-#footer-link {
-	margin: 0px 5px 0px 5px;
-}
-
 #copyright {
   margin: 20px;
 }
 
 @media (max-width: 400px) {
-  body {
-  background-color: #eee;
-  font-family: serif;
-  }
+  
 }

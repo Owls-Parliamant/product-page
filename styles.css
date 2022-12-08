@@ -86,7 +86,7 @@ section {
 }
 
 #product-image {
-  width: 500px;
+  width: 40vw;
   aspect-ratio: auto;
   padding: 10px 20px 10px 10px;
 }
@@ -94,7 +94,7 @@ section {
 #product-summary {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 35vw;
   justify-content: left;
 }
 
@@ -168,8 +168,8 @@ fieldset {
 }
 
 .other-product {
-  width: 180px;
-  height: 220px;
+  width: 20vw;
+  height: 30vh;
   border: 2px solid black;
   padding: 10px;
   text-align: center;

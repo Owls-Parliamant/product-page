@@ -16,11 +16,12 @@ body {
   top: 0;
   right: 0;
   align-items: center;
-  height: 80px;
+  height: 12vh;
   width: 100%;
   display: flex;
   z-index: 2;
   padding: 0 0 0 10px;
+  font-size: 2.5vmin;
 }
 
 #header-img {
@@ -34,6 +35,7 @@ body {
 }
 
 #header #logo-text {
+  font-size: 4.5vmin;
   padding: 0;
   margin: 0;
   margin-left: 2px;
@@ -67,7 +69,7 @@ li {
 
 #main {
   position: relative;
-  padding-top: 120px;
+  padding-top: 13vh;
   width: 100%;
   z-index: 1;
 }
@@ -86,7 +88,7 @@ section {
 }
 
 #product-image {
-  width: 40vw;
+  width: 38vw;
   aspect-ratio: auto;
   padding: 10px 20px 10px 10px;
 }
@@ -109,7 +111,8 @@ section {
 }
 
 #color-option, #product-number {
-  height: 25px;
+  height: 3.5vh;
+  min-height: 24px;
 }
 
 fieldset {
@@ -132,8 +135,8 @@ fieldset {
 
 .star {
   aspect-ratio: auto;
-  width: 20px;
-  height: 20px;
+  width: 3vmin;
+  height: 3vmin;
 }
 
 .rating-total {
@@ -155,8 +158,8 @@ fieldset {
 }
 
 .review-rating {
-  width: 15px;
-  height: 15px;
+  width: 2vmin;
+  height: 2vmin;
   margin: 0;
   }
 
@@ -168,8 +171,9 @@ fieldset {
 }
 
 .other-product {
-  width: 20vw;
-  height: 30vh;
+  width: 12vmax;
+  height: 14.5vmax;
+  min-height: 35vmin;
   border: 2px solid black;
   padding: 10px;
   text-align: center;
@@ -178,7 +182,12 @@ fieldset {
 .other-product-image {
   aspect-ratio: auto;
   width: auto;
-  height: 50%;
+  height: 7vmax;
+  padding: 2px;
+}
+
+.other-product-caption, .other-product-price {
+  font-size: 1.8vmin;
 }
 
 #other-products a {
@@ -192,8 +201,9 @@ fieldset {
 
 #footer {
   padding: 5px;
-  margin: 0 0 5px 0;
-  font-size: 12px;
+  margin: 0 0 8vh 0;
+  font-size: 2vmin;
+  height: 12vh;
 }
 
 #footer-links {
@@ -201,6 +211,8 @@ fieldset {
   flex-direction: row;
   justify-content: space-evenly;
   margin: 5px;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 #footer-link {
@@ -224,14 +236,15 @@ fieldset {
 }
 
 #submit {
-  height: 22px;
+  height: 3vh;
+  min-height: 22px;
   margin-bottom: 3px;
 }
 
 #copyright {
-  margin: 20px;
+  margin: 4vh 1vw 15vh 1vw;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1200px) {
   
 }

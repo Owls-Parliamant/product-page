@@ -137,6 +137,8 @@ fieldset {
   aspect-ratio: auto;
   width: 3vmin;
   height: 3vmin;
+  min-width: 12px;
+  min-height: 12px;
 }
 
 .rating-total {
@@ -245,6 +247,262 @@ fieldset {
   margin: 4vh 1vw 15vh 1vw;
 }
 
-@media (max-width: 1200px) {
-  
+@media (max-width: 1000px) {
+  * {
+  box-sizing: border-box;
+  }
+
+  body {
+  background-color: #fff;
+  font-family: sans-serif;
+  width: calc(100vw-10px);
+  margin: 0 9vmin 0 9vmin;
+  }
+
+  #header {
+  background-color: rgb(65, 140, 250);
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  align-items: center;
+  height: 12vh;
+  min-height: 70px;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+  padding: 0 0 0 10px;
+  font-size: calc(8px + 1.8vmin)
+  }
+
+  #header-img {
+  aspect-ratio: 1/1;
+  width: auto;
+  height: 90%;
+  padding: 3px;
+  margin: 5px;
+  margin-left: 3px;
+  margin-right: 7px;
+  }
+
+  #header #logo-text {
+  font-size: calc(8px + 2.5vmin);
+  padding: 0;
+  margin: 0;
+  margin-left: 2px;
+  }
+
+  #logo-text {
+  min-width: 190px;
+  max-width: 30vw;
+  }
+
+  #header a {
+  color: white;
+  text-decoration: none;
+  }
+
+  #header a:hover {
+  text-decoration: underline;
+  }
+
+  #nav-list {
+  display: flex;
+  }
+
+  #nav-list li {
+  padding: 5px 20px 5px 20px;
+  border-right: 2px solid white;
+  }
+
+  #nav-list li:last-of-type {
+  border-right: 0;
+  }
+
+  li {
+  list-style-type: none;
+  }
+
+  #main {
+  position: relative;
+  padding-top: min(12vh, 75px);
+  width: 100%;
+  z-index: 1;
+  }
+
+  section {
+  border-bottom: 2px black solid;
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+  }
+
+  #product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%
+  }
+
+  #product-image {
+  width: 100%;
+  aspect-ratio: auto;
+  padding: 10px 20px 10px 10px;
+  }
+
+  #product-summary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: left;
+  }
+
+  #price-listing {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  }
+
+  #product-selection {
+  width: 100%;
+  border-color:
+  }
+
+  #color-option, #product-number {
+  height: 3.5vh;
+  min-height: 24px;
+  }
+
+  fieldset {
+  border: 0px;
+  }
+
+  .submit {
+  background-color: rgb(65, 140, 250);
+  color: white;
+  }
+
+  .submit-basket {
+  width: 100%;
+  min-height: calc(10px + 3vmin);
+  padding: 5px;
+  }
+
+  #product-details {
+  width: 100%;
+  }
+
+  .star {
+  aspect-ratio: auto;
+  width: 3vmin;
+  height: 3vmin;
+  min-width: 15px;
+  min-height: 15px;
+  }
+
+  .rating-total {
+  margin: 0 4px 0 4px;
+  }
+
+  .star:first-of-type {
+  margin-left: 10px
+  }
+
+  .customer-review {
+  width: 90%;
+  border-bottom: 1px solid black;
+  padding: 0 0 10px 0;
+  }
+
+  .customer-review:last-of-type {
+  border-bottom: 0;
+  }
+
+  .review-rating {
+  width: 2vmin;
+  height: 2vmin;
+  margin: 0;
+  }
+
+  #other-products {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  }
+
+  .other-product {
+  width: 12vmax;
+  height: 14.5vmax;
+  min-height: 35vmin;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  }
+
+  .other-product-image {
+  aspect-ratio: auto;
+  width: auto;
+  height: 7vmax;
+  padding: 2px;
+  }
+
+  .other-product-caption, .other-product-price {
+  font-size: 1.8vmin;
+  }
+
+  #other-products a {
+  color: black;
+  text-decoration: none;
+  }
+
+  #other-products a:hover {
+  text-decoration: underline;
+  }
+
+  #footer {
+  padding: 5px;
+  margin: 0 0 calc(10px + 8vh) 0;
+  font-size: calc(10px + 1vmin);
+  height: 12vh;
+  }
+
+  #footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px;
+  gap: 12px;
+  flex-wrap: wrap;
+  }
+
+  #footer-link {
+  margin: 0px 5px 0px 5px;
+  }
+
+  #footer a {
+  color: black;
+  text-decoration: none;
+  }
+
+  #footer a:hover {
+  text-decoration: underline;
+  }
+
+  #form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  }
+
+  #submit {
+  height: 3vh;
+  min-height: 22px;
+  margin-bottom: 3px;
+  }
+
+  #copyright {
+  margin: 4vh 1vw 15vh 1vw;
+  }
 }

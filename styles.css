@@ -277,8 +277,8 @@ fieldset {
 
   #header-img {
   aspect-ratio: 1/1;
-  width: 80px;
-  height: 80px;
+  width: auto;
+  height: 90%;
   padding: 3px;
   margin: 5px;
   margin-left: 2px;
@@ -449,7 +449,7 @@ fieldset {
   }
 
   .other-product-caption, .other-product-price {
-  font-size: 1.8vmin;
+  font-size: 2.5vmin;
   }
 
   #other-products a {

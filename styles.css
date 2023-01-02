@@ -50,7 +50,7 @@ body {
   text-decoration: underline;
 }
 
-#nav-list {
+#nav-bar * {
   display: flex;
 }
 
@@ -281,8 +281,8 @@ fieldset {
   height: 90%;
   padding: 3px;
   margin: 5px;
-  margin-left: 3px;
-  margin-right: 7px;
+  margin-left: 2px;
+  margin-right: 2px;
   }
 
   #header #logo-text {
@@ -346,7 +346,7 @@ fieldset {
   }
 
   #product-image {
-  width: 70%;
+  width: 80%;
   aspect-ratio: auto;
   padding: 10px 20px 10px 10px;
   }
@@ -473,7 +473,7 @@ fieldset {
   flex-direction: row;
   justify-content: space-evenly;
   margin: 5px;
-  gap: 12px;
+  gap: 20px;
   flex-wrap: wrap;
   }
 

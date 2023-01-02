@@ -277,8 +277,8 @@ fieldset {
 
   #header-img {
   aspect-ratio: 1/1;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   padding: 3px;
   margin: 5px;
   margin-left: 2px;
@@ -307,7 +307,7 @@ fieldset {
   text-decoration: underline;
   }
 
-  #nav-list {
+  #nav-bar * {
   display: flex;
   }
 

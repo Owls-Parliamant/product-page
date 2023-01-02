@@ -30,15 +30,16 @@ body {
   height: 90%;
   padding: 3px;
   margin: 5px;
-  margin-left: 3px;
-  margin-right: 7px;
+  margin-left: 4px;
+  margin-right: 10px;
 }
 
 #header #logo-text {
   font-size: 4.5vmin;
   padding: 0;
   margin: 0;
-  margin-left: 2px;
+  margin-left: 5px;
+  margin-right: -12px;
 }
 
 #header a {
@@ -203,7 +204,7 @@ fieldset {
 
 #footer {
   padding: 5px;
-  margin: 0 0 8vh 0;
+  margin: 1.5vh 0 8vh 0;
   font-size: 2vmin;
   height: 12vh;
 }

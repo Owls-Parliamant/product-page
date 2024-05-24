@@ -192,6 +192,19 @@ fieldset {
   font-size: 1.8vmin;
 }
 
+@media screen and (max-width: 1000px) {
+  
+  .other-product-caption, .other-product-price {
+    font-size: 2vmin;
+    }
+}
+ 
+@media screen and (max-width: 750px) {
+  .other-product-caption, .other-product-price {
+    font-size: 1.8vmin;
+  }
+}
+
 #other-products a {
   color: black;
   text-decoration: none;
@@ -445,10 +458,6 @@ fieldset {
   width: auto;
   height: 7vmax;
   padding: 2px;
-  }
-
-  .other-product-caption, .other-product-price {
-  font-size: 2.5vmin;
   }
 
   #other-products a {

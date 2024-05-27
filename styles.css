@@ -13,6 +13,9 @@ body {
   background-color: rgb(65, 140, 250);
   color: white;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   top: 0;
   right: 0;
   align-items: center;
@@ -24,10 +27,16 @@ body {
   font-size: 2.5vmin;
 }
 
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 #header-img {
   aspect-ratio: 1/1;
   width: auto;
-  height: 90%;
+  height: 10vh;
   padding: 3px;
   margin: 5px;
   margin-left: 4px;
@@ -47,8 +56,13 @@ body {
   text-decoration: none;
 }
 
-#header a:hover {
+#nav-bar a:hover {
   text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#nav-bar {
+  margin-right: 4vw;
 }
 
 #nav-bar * {
@@ -56,12 +70,15 @@ body {
 }
 
 #nav-list li {
-  padding: 5px 20px 5px 20px;
   border-right: 2px solid white;
 }
 
 #nav-list li:last-of-type {
   border-right: 0;
+}
+
+#nav-list a {
+  padding: 1vw 4vw 1vw 4vw;
 }
 
 li {
@@ -226,6 +243,7 @@ fieldset {
   flex-direction: row;
   justify-content: space-evenly;
   margin: 5px;
+  padding: 1vw 0px 1vw 0px;
   gap: 12px;
   flex-wrap: wrap;
 }
@@ -290,8 +308,6 @@ fieldset {
 
   #header-img {
   aspect-ratio: 1/1;
-  width: auto;
-  height: 90%;
   padding: 3px;
   margin: 5px;
   margin-left: 2px;
